@@ -1,0 +1,35 @@
+@charset "UTF-8";
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-color: #444;
+    color: whitesmoke;
+}
+header {
+    background-color: #222;
+    padding: 30px 0px;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+}
+header > h1 {
+    text-align: center;
+}
+img {
+    width: 740px;
+}
+main {
+    width: 800px;
+    margin: 150px auto;
+    background-color: #222;
+    padding: 30px 30px;
+    border-radius: 10px;
+}
+main > article > h2 {
+    color: chartreuse;
+    padding-bottom: 20px;
+}
