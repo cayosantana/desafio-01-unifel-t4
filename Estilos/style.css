@@ -119,6 +119,7 @@ footer {
 }
 footer > p {
     text-align: center;
+    font-style: italic;
 }
 strong {
     color: #D7F205;
