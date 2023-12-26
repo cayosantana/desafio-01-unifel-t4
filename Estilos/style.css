@@ -16,6 +16,10 @@ header {
     position: fixed;
     top: 0;
 }
+span {
+    font-size: 40px;
+    color: #D7F205;
+}
 header > h1 {
     text-align: center;
 }
@@ -31,5 +35,93 @@ main {
 }
 main > article > h2 {
     color: #D7F205;
+    padding: 20px 0px;
+}
+h3 {
+    color: #D7F205;
+    padding: 20px 0px; 
+}
+p {
+    text-align: justify;
+}
+.aprendidas {
+    background-color: #D7F205;
+    padding: 20px;
+    border-radius: 10px;
+}
+.aprendidas > h4 {
+    color: #222;
+    text-align: center;
     padding-bottom: 20px;
+}
+.aprendidas > ul {
+    display: flex;
+    justify-content: space-around;
+
+}
+.aprendidas > ul > li {
+    list-style-type: none;
+    padding: 20px 0px;
+}
+.aprendidas > ul > li > a {
+    color: #222;
+    text-decoration: none;
+    border: 2px solid;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.aprendidas > ul > li > a:hover {
+    background-color: #222;
+    color: #D7F205;
+}
+.aprendidas > ul > li > a:active {
+    box-shadow: 0px 0px 10px black
+}
+.futuro {
+    background-color: #444;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.futuro > h4 {
+    color: #D7F205;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.futuro > ul {
+    display: flex;
+    justify-content: space-around;
+}
+.futuro > ul > li {
+    list-style-type: none;
+    padding: 20px 0px;
+}
+.futuro > ul > li > a {
+    color: #D7F205;
+    text-decoration: none;
+    border: 2px solid;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.futuro > ul > li > a:hover {
+    background-color: #D7F205;
+    color: #222;
+}
+.futuro > ul > li > a:active {
+    box-shadow: 0px 0px 10px #D7F205
+}
+footer {
+    background-color: #222;
+    padding: 30px 0px;
+}
+footer > p {
+    text-align: center;
+}
+strong {
+    color: #D7F205;
+}
+strong:hover {
+    background-color: #D7F205;
+    color: #222;
+    transition-duration: 1ms;
 }
